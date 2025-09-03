@@ -35,7 +35,7 @@ export default function Home() {
   // --- Handlers ---
   const handleBegin = () => {
     if (!name.trim()) {
-      setError("Please enter your full name.");
+      setError("Please enter your full name...");
       return;
     }
     setError("");
